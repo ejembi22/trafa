@@ -1,0 +1,1029 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav_container{
+    display: flex;
+    padding-left: 3em;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px, 50px, 30px, 50px ;
+    width: 100%;
+}
+.nav_left{
+    width: 100%;
+    padding-top: 2em;
+    padding-left: 3em;
+
+}
+
+.nav_right{
+    width: 100%;
+    align-items: center;
+    padding-top: 2em;
+    
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+
+}
+
+.nav_item a{
+    text-decoration: none;
+    padding: 10px;
+    color:rgba(31, 21, 52, 1) ;
+}
+
+#nav-icon{
+    display: none;
+}
+
+.section1{
+    padding-left: 3em ;
+    padding-top: 5em;
+}
+.box_container{
+    display: flex;
+}
+
+.virtual_text{
+    font-family: "Mulish",sans-serif;
+    font-weight: 700;
+    color:#000000 ; 
+    font-size:48px ;
+    width: 527px;
+    line-height: 56px;
+    padding-left: 1em;
+}
+
+.affordable_text{
+    font-family: "Mulish", sans-serif;
+    font-weight:300 ;
+    columns: #7D7987;
+    font-size: 21px;
+    width: 485px;
+    padding-top: 15px;
+    padding-left: 2em;
+    line-height: 32px;
+}
+.consultbtn1{
+    margin-left: 2em;
+    margin-top: 2em;
+    border: none;
+    background-color: #458FF6;
+    color: white;
+    font-size: 18px;
+    border-radius: 55px;
+    width: 200px;
+    height: 60px;
+}
+
+.trafalgar_illustration{
+    width: 90%;
+    padding-left: 7em;
+}
+
+
+.section2{
+    padding-left: 3em;
+    padding-top: 7em;
+}
+
+.service_container{
+    text-align: center;
+}
+.os{
+    font-size: 36px ;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+}
+.line1{
+    border-style: solid;
+    width: 56px;
+    height: 1px;
+    border-color: rgba(0, 0, 0, 1);
+    margin-inline: auto;
+    margin-top: 2em;   
+
+}
+.os_content{
+    font-size:17px ;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    color: #7D7987;
+    width: 1050px;
+    line-height: 30px;
+    padding-left: 10em;
+    padding-top: 2em;
+    
+}
+
+.section3{
+    padding-top: 4em;
+}
+
+.element1{
+    position: absolute;
+    top: 1380px;
+    left: 1100px;
+}
+
+.section4{
+    padding-left:3em ;
+}
+
+.gird_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 1090px ;
+    left: 80px ;
+    gap: 30px;
+}
+
+.grid_item{
+    border: 2px solid white;
+    border-radius:20px ;
+    width: 350px;
+    height: 354px;
+    background-color:#FFFFFF ;
+}
+
+.frame_image{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.frame_title{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.frame_content{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.learn1{
+    width: 200px;
+    height: 60px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    margin-top: 270px;
+    margin-left:470px;
+}
+
+.section5{
+    padding-left: 3em;
+    padding-top: 10em;
+    display: flex;
+    align-items: center;
+}
+.image_container3{
+    padding-left: 3em;
+}
+
+.trafalgar_illus{
+    width: 90%;
+}
+.leading{
+    padding-left: 4em;
+}
+.leading_title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 481px;
+}
+.line2{
+    border-style: solid;
+    width: 56px;
+    height: 1px;
+    border-color: rgba(0, 0, 0, 1);
+    margin-top: 2em;   
+}
+
+.leading_content{
+    width: 400px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-top: 2em;
+}
+
+.learn2{
+    width: 200px;
+    height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.section6{
+    padding-left: 3em;
+    padding-top: 7em;
+    display: flex;
+}
+.download_app{
+    padding-left:7em ;
+}
+
+.dwn_app{
+    width: 254px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.line3{
+    border-style: solid;
+    width: 56px;
+    height: 1px;
+    border-color: rgba(0, 0, 0, 1);
+    margin-top: 2em;  
+}
+
+.dwn_content{
+    font-size: 18px;
+    color: #7D7987;
+    line-height: 30px;
+    width: 380px;
+    padding-top: 2em;
+}
+
+.dwnbtn{
+    width: 200px;
+    height: 60px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.dwn_arrow{
+    display: block;
+    color: #458FF6;
+    
+   
+}
+
+.trafalgar_illus01{
+    width: 90%;
+    padding-left: 7em;
+}
+
+.section7{
+    padding-left: 3em;
+    padding-top: 7em;
+}
+
+.card_title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+.line4{
+    border-style: solid;
+    width: 56px;
+    height: 1px;
+    border-color:white;
+    margin-top: 2em; 
+    margin-inline: auto;
+}
+.customer_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.customer_content{
+    font-size:19px ;
+    font-weight: 400;
+    width: 450px;
+    line-height: 30px;
+    padding-left: 3em;
+    padding-top: 1em;
+    color: #FFFFFFE5;
+    opacity: 60%;
+   
+}
+.name{
+    font-size: 22px;
+    color: #FFFFFFE5;
+}
+.position{
+    display: block;
+    font-size:18px ;
+    color: #FFFFFFE5;
+    opacity: 60%;
+}
+
+.customer_image{
+    border-radius: 999px;
+    border: 3px solid #fff
+}
+.card_box{
+width: 80%;
+height: max-content;
+background: linear-gradient(to bottom, #67c3f3, #5a98f2);
+margin-inline: auto;
+border-radius: 24px;
+padding-bottom: 2em;
+box-shadow: 0px 0px 10px 7px #3f3e3e28;
+
+
+
+
+}
+
+.arrow_nav{
+    padding-top: 2em;
+    padding-left: 25em;
+}
+
+.section8{
+    padding-left: 3em;
+    padding-top: 7em;
+}
+
+.text{
+    text-align: center;
+}
+
+.article{
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+
+.line5{
+    border-style: solid;
+    width: 56px;
+    height: 1px;
+    border-color:black;
+    margin-top: 2em; 
+    margin-inline: auto;
+}
+
+.vector_container{
+    float: right;
+}
+
+
+.mask_title{
+    width: 270px;
+    font-size: 21px;
+    font-weight: 700;
+    color: black; 
+    padding-top: 10px;
+    padding-left: 20px;
+ }
+
+ .mask_content{
+    font-size: 16px;
+    color: #7D7987;
+    line-height: 28px;
+    font-weight: 300;
+    width: 290px;
+    padding-top: 10px;
+    padding-left: 20px;
+  
+ }
+ .mask_image{
+    border-radius: 10px;
+}
+.read{
+    color: #4089ED;
+    padding-top: 10px;
+   padding-left: 20px;
+    
+}
+
+.second_box{
+    display: flex;
+    gap: 30px;
+    padding-top: 2em;
+}
+.grid_item2{
+    border: 2px solid white;
+    width:364px;
+    height: 512px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.viewbtn{
+    width: 200px;
+    height: 60px;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    margin-top: 30px; 
+    margin-left: 24em;
+}
+
+footer{
+    background: linear-gradient(to bottom, #67c3f3, #5a98f2);
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10rem;
+  color: #fff;
+  margin-top: 4rem;
+
+}
+
+footer .trafalgar_company_note .note {
+    margin-top: 15px;
+    line-height: 1.6;
+    width: 391px;
+  }
+.trafalgar_company_logo{
+  padding-left: 5em;
+  padding-top: 2em; 
+}
+
+footer .trafalgar_company_note .note {
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+
+  .trafalgar_company_note .note .note_footer {
+    display: block;
+    margin-top: 1.6rem;
+  }
+
+  footer .footer_nav .footer_nav_items .descriptive {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 13px;
+  }
+
+  footer .footer_nav .footer_nav_items .d-list {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 9.5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+  .navbar{
+    padding: 10px, 10px, 10px, 10px;
+  } 
+  .nav_list{
+    padding: 10px;
+  } 
+  .nav_right{
+display: none;
+  }
+
+  .nav_left{
+    padding-left: 1em;
+    width: 100%;
+  }
+
+  .nav_container{
+    padding-left: 1em;
+  }
+
+  #nav-icon{
+    display: block;
+    margin-right: 3em;
+    margin-top: 2em;
+  }
+
+  .section1{
+    padding-left: 1em ;
+    
+}
+
+.box_container{
+    flex-direction: column;
+}
+
+
+  .virtual_text{ 
+    font-size:28px ;
+    width: 80%;
+    line-height: 32px;
+}
+
+.affordable_text{
+    font-size: 16px;
+    width: 80%;
+    padding-top: 15px;
+    padding-left: 2em;
+    line-height: 22px;
+}
+
+.consultbtn1{
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    margin-left: 3em;
+}
+
+.trafalgar_illustration{
+    width: 80%;
+    padding-left: 3em;
+    padding-top: 20px;
+}
+
+.section2{
+    padding-left: 1em;
+    padding-top: 4em;
+}
+
+.os{
+    font-size: 28px ;
+}
+
+
+.os_content{
+    font-size:16px ;
+    width:80%;
+    line-height: 30px;
+    padding-left:2.5em;
+    padding-top: 2em;
+    
+}
+
+.vector1{
+    width: 90%;
+}
+
+.element1{
+    display: none;
+}
+
+.section4{
+    padding-left: 1em;
+}
+
+.gird_container{
+    grid-template-columns: repeat(1, 1fr);
+    position: absolute;
+    left: 50px ;
+}
+
+.grid_item{
+    width: 80%;
+}
+
+.learn1{
+    width: 100px;
+    height: 30px;
+    margin-top: 2050px;
+    margin-left:70px;
+}
+
+.section5{
+    padding-left: 3em;
+    padding-top: 5em;
+    flex-direction: column;
+}
+
+.trafalgar_illus{
+    width: 80%;
+}
+
+.leading_title{
+    font-size: 26px;
+    line-height: 30px;
+    width: 281px;
+    padding-top: 2em;
+}
+
+.leading_content{
+    width: 90%;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-top: 2em;
+}
+
+
+.learn2{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+.image_container3{
+    padding-left: 0em;
+}
+
+.leading{
+    padding-left: 0em;
+}
+
+
+.section6{
+    padding-left: 3em;
+    padding-top: 3em;
+    flex-direction: column;
+}
+.download_app{
+    padding-left:0em ;
+}
+
+.dwn_app{
+    width: 254px;
+    font-size: 26px;
+    line-height: 30px;
+
+}
+
+.dwn_content{
+    font-size: 17px;
+    line-height: 30px;
+    width: 90%;
+    padding-top: 2em;
+}
+
+.dwnbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 55px;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.trafalgar_illus01{
+    width: 80%;
+    padding-left: 1em;
+    padding-top: 20px;
+}
+
+.section7{
+    padding-left: 0em;
+    padding-top: 3em;
+}
+
+.card_title{
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+.customer_details{
+    flex-direction: column;
+    padding-top: 3em;
+
+}
+.customer_content{
+    font-size:19px ;
+    width:90%;
+    padding-left: 1em;
+    padding-top: 10px;
+   
+    
+   
+}
+.name{
+    font-size: 18px;
+}
+.position{
+    font-size:17px ;
+}
+
+.card_box{
+width: 80%;
+padding-bottom: 2em;
+}
+
+.arrow_nav{
+    padding-top: 2em;
+    padding-left: 1.5em;
+}
+
+.article{
+    font-size: 22px;
+    line-height: 56px;
+}
+
+.vector_container{
+    padding-top: 1em;
+}
+.vector2{
+    width: 100%;
+}
+
+
+.mask_image{
+    width: 250px;
+}
+
+.mask_title{
+    width: 250px;
+    font-size: 17px; 
+    padding-top: 10px;
+ }
+ 
+ .mask_content{
+    font-size: 16px;
+    color: #7D7987;
+    line-height: 28px;
+    font-weight: 300;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 20px
+}
+
+.second_box{
+    flex-direction: column;
+   
+}
+
+.grid_item2{
+    width:255px;
+    height: 412px;
+    margin-left: 1em;
+}
+
+.viewbtn{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 8em;
+}
+
+footer {
+    padding: 1rem 35px;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  .trafalgar_company_logo{
+    padding-left: 1em;
+    padding-top: 2em; 
+  }
+
+  footer .trafalgar_company_note .note {
+    width:291px;
+  }
+  
+
+}
+
+
+@media(max-width:1030px) {
+    .navbar{
+        padding: 10px, 10px, 10px, 10px;
+      } 
+      .nav_list{
+        padding: 10px;
+      } 
+      .nav_right{
+      display: none;
+      }
+    
+      .nav_left{
+        padding-left: 1em;
+        width: 100%;
+      }
+    
+      .nav_container{
+        padding-left: 1em;
+      }
+    
+      #nav-icon{
+        display: block;
+        margin-right: 3em;
+        margin-top: 2em;
+      }
+
+      .section2{
+        padding-left: 1em;
+        padding-top: 4em;
+    }
+    
+    .os{
+        font-size: 28px ;
+    }
+    
+    
+    .os_content{
+        font-size:16px ;
+        width:90%;
+        line-height: 30px;
+        padding-left:2.5em;
+        padding-top: 2em;
+        
+    }
+
+    .vector1{
+        width: 90%;
+    }
+    
+    .element1{
+        display: none;
+    }
+    
+    .section4{
+        padding-left: 1em;
+    }
+    
+    .gird_container{
+        grid-template-columns: repeat(1, 1fr);
+        position: absolute;
+        left: 120px ;
+        top: 850px;
+    }
+    
+    .grid_item{
+        width: 70%;
+    }
+    
+    .learn1{
+        width: 120px;
+        height: 40px;
+        margin-top: 2050px;
+        margin-left:90px;
+    }
+
+    .section5{
+        padding-left: 3em;
+        padding-top: 5em;
+        flex-direction: column;
+    }
+    
+    .trafalgar_illus{
+        width: 80%;
+    }
+    
+    .leading_title{
+        font-size: 26px;
+        line-height: 30px;
+        width: 281px;
+        padding-top: 2em;
+    }
+    
+    .leading_content{
+        width: 70%;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 300;
+        padding-top: 2em;
+    }
+    
+    
+    .learn2{
+        width: 100px;
+        height: 30px;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    
+    .image_container3{
+        padding-left: 2em;
+    }
+    
+    .leading{
+        padding-left: 8em;
+    }
+
+    .section6{
+        padding-left: 3em;
+        padding-top: 3em;
+        flex-direction: column;
+    }
+
+    .trafalgar_illus01{
+        width: 80%;
+        padding-left: 1em;
+        padding-top: 3em;
+    }
+    
+    .section7{
+        padding-left: 0em;
+        padding-top: 3em;
+    }
+    
+    .card_title{
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+    
+    
+    
+    
+    .customer_details{
+        flex-direction: column;
+        padding-top: 3em;
+    
+    }
+    .customer_content{
+        font-size:19px ;
+        width:90%;
+        padding-left: 1em;
+        padding-top: 10px;
+       
+        
+       
+    }
+    .name{
+        font-size: 18px;
+    }
+    .position{
+        font-size:17px ;
+    }
+    
+    .card_box{
+    width: 80%;
+    padding-bottom: 2em;
+    }
+
+    .arrow_nav{
+        padding-top: 2em;
+        padding-left: 10em;
+    }
+
+
+    .second_box{
+        flex-direction: column;
+       
+    }
+    
+    .grid_item2{
+        width:255px;
+        height: 412px;
+        margin-left: 7em;
+    }
+
+    .viewbtn{
+        width: 120px;
+        height: 40px;
+        font-size: 10px;
+        margin-top: 60px;
+        margin-left: 12em;
+    }
+    
+
+    footer {
+        padding: 1rem 35px;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2rem;
+      }
+    
+      .trafalgar_company_logo{
+        padding-left: 0em;
+        padding-top: 2em; 
+      }
+    
+      footer .trafalgar_company_note .note {
+        width:291px;
+      }
+      
+    
+    
+    
+
+
+
+}
+
