@@ -809,7 +809,7 @@ footer {
 }
 
 
-@media(max-width:1030px) {
+@media (min-width:760px)and(max-width:1030px) {
     .navbar{
         padding: 10px, 10px, 10px, 10px;
       } 
@@ -1017,13 +1017,6 @@ footer {
     
       footer .trafalgar_company_note .note {
         width:291px;
-      }
-      
-    
-    
-    
+      } 
 
-
-
-}
-
+    }
